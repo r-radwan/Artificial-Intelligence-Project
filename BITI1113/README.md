@@ -38,16 +38,9 @@ In our project, since we have a tendency to operating with text and words, Term 
 
 ##  B. ABSTRACT 
 
-In late December 2019, a previous unidentified coronavirus, currently named as the 2019 novel coronavirus, emerged from Wuhan, China, and resulted in a formidable outbreak in many cities in China and expanded globally, including Thailand, Republic of Korea, Japan, United States, Philippines, Viet Nam, and our country (as of 2/6/2020 at least 25 countries). Covid-19 are Person-to-person transmission may occur through droplet or contact transmission and if there is a lack of stringent infection control or if no proper personal protective equipment available, it may jeopardize the first-line healthcare workers.
-
-The best safety measure that can be taken is enforcing the people to wear a face mask whenever they are outside to slow down the COVID-19 infection rate. Mask wearing significantly reduced the amounts of various airborne viruses coming from infected patients, measured using the breath-capturing "Gesundheit II machine" developed by Dr. Don Milton, a professor of applied environmental health and a senior author of the study published April 3 in the journal Nature Medicine. In short, masks can help prevent the spread of COVID-19 and that the more people wearing masks, the better.
-
-As for now, you as a Data Scientist or Machine Learning Engineer or Practitioner are going to use AI technology to recognize people whether they are wearing face mask or not in the public or open space.
-
-
-![Coding]()
-Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
-
+  According to Nielsen’s Music 360 2014 study, 93 % of the U.S. population listens to music, defrayal quite twenty five hours every week electronic jamming intent on their favorite tunes [1]. Recommender systems have taken the diversion and e-commerce industries by storm. Amazon, Netflix, and Spotify square measure nice examples.
+  In this project, we've designed, enforced and analyzed song recommendation systems exploitation varied algorithms. Music recommendation may be a terribly difficult drawback as we've to structure music during a method that we have a tendency to advocate the favourite songs to users that is rarely a precise prediction. it's dynamic and generally influenced by factors apart from users’ or songs’ listening history. we've used Million Song Dataset [2], a freely-available collection of audio options and data for 1,000,000 contemporary music genre tracks provided by Echo Nest, to seek out the correlations between users and songs and to find out from the previous listening history of users to
+provide recommendations for songs that users would like to pay attention most. We will discuss the issues we have a tendency to Janus-faced, ways we've enforced, results and analysis. We have achieved best results exploitation neural network cooperative filtering formula.
 
 ## C.  DATASET
 
