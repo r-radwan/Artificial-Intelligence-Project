@@ -120,37 +120,41 @@ To help keep her spirits up, Prajna decided to distract herself by applying comp
 ## D.   PROJECT STRUCTURE
 
 The following directory is our structure of our project:
-- $ tree --dirsfirst --filelimit 10
+## D.   PROJECT STRUCTURE
+
+The following directories are our structure of our project:
+- $ tree --dirsfirst --filelimit 5
 - .
 - ├── dataset
-- │   ├── with_mask [690 entries]
-- │   └── without_mask [686 entries]
-- ├── examples
-- │   ├── example_01.png
-- │   ├── example_02.png
-- │   └── example_03.png
-- ├── face_detector
-- │   ├── deploy.prototxt
-- │   └── res10_300x300_ssd_iter_140000.caffemodel
-- ├── detect_mask_image.py
-- ├── detect_mask_video.py
-- ├── mask_detector.model
-- ├── plot.png
-- └── train_mask_detector.py
-- 5 directories, 10 files
+- │   ├── song_data.csv [1000001 entries]
+- │   └── triplets_file.csv [1048576 entries]
+- ├── music_recommender
+- │   ├── popularityBased_recommender.py
+- │   ├── contentBased_recommender.py
+- │   └── Main.py
+- └── trainMusicDatasetRecommendation.py
+
+- 2 directories, 15 files
 
 
-The dataset/ directory contains the data described in the “Our COVID-19 face mask detection dataset” section.
+The dataset/ directory contains the data described in the “Our recommendation system dataset” section.
 
-Three image examples/ are provided so that you can test the static image face mask detector.
+There are two datasets song_data.csv and triplets_file.csv. song_data.csv dataset consist of 1000001 rows and 5 columns
+which are song_id, title, release, artist name and year. While the triplets_file.csv dataset contains 1048576 rows and 3 columns
+which are user_id, song_id and listen_count. The ong_data.csv dataset is holding the main data for the system and
+the triplets_file.csv dataset contains the data that have been collected from the user and counting the time for each song being played.
+According to the counter the recommender can predict the recommendation
 
-We’ll be reviewing three Python scripts in this tutorial:
+Explanation of the three Python scripts:
 
-- train_mask_detector.py: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
-- detect_mask_image.py: Performs face mask detection in static images
-- detect_mask_video.py: Using your webcam, this script applies face mask detection to every frame in the stream
+- popularityBased_recommender.py: Accepts our input dataset and make the ‎recommendation for the user based on the data column 
+counter that the source code will identify.
 
-In the next two sections, we will train our face mask detector.
+- contentBased_recommender.py: Processes the data based on the content. This will ‎process the song_data.csv dataset.
+
+- Main.py: Manipulation of the objects and controlling of the system classes.
+
+In the next sections, we will train our music recommender.
 
 
 
