@@ -119,18 +119,18 @@ To help keep her spirits up, Prajna decided to distract herself by applying comp
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-$ tree --dirsfirst --filelimit 5
-.
-├── dataset
-│   ├── song_data.csv [1000001 entries]
-│   └── triplets_file.csv [1048576 entries]
-├── music_recommender
-│   ├── popularityBased_recommender.py
-│   ├── contentBased_recommender.py
-│   └── Main.py
-└── trainMusicDatasetRecommendation.py
+- $ tree --dirsfirst --filelimit 5
+- .
+- ├── dataset
+- │   ├── song_data.csv [1000001 entries]
+- │   └── triplets_file.csv [1048576 entries]
+- ├── music_recommender
+- │   ├── popularityBased_recommender.py
+- │   ├── contentBased_recommender.py
+- │   └── Main.py
+- └── trainMusicDatasetRecommendation.py
 
-2 directories, 15 files
+- 2 directories, 15 files
 
 
 The dataset/ directory contains the data described in the “Our recommendation system dataset” section.
