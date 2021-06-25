@@ -46,7 +46,7 @@ Million Songs Dataset contains of two files: triplet_file and metadata_file. The
 
 There are 3 types of recommendation system: content-based, collaborative and popularity but we have only used content-based and popularity in our project.
 
-
+I’ll then show you how to analyze our content based engine dataset using Keras and TensorFlow.
 
 
 
