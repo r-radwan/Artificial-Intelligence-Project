@@ -24,10 +24,10 @@ How is that this performed?
 In our project, since we have a tendency to operating with text and words, Term Frequency-Inverse Document Frequency (TF-IDF) is used for this matching method.
 
 **Team Members:** 
-- Thivya Tamil Selvam
-- Anbu Selvi A/P M Paramasivan
-- Noah Brynner Wee Supitang
-- Radwan Mohammed Rashed Mahdi
+- Thivya Tamil Selvam            (B031910442)
+- Anbu Selvi A/P M Paramasivan   (BO31910062)
+- Noah Brynner Wee Supitang      (B031910101)
+- Radwan Mohammed Rashed Mahdi   (B031910453)
 
 - [ ] **Objectives:**
 - The objective is to provide music recommendation systems that fit listeners profile in terms of content-based and popularity-based  with continuation of past exploration.
