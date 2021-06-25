@@ -46,9 +46,14 @@ Million Songs Dataset contains of two files: triplet_file and metadata_file. The
 
 There are 3 types of recommendation system: content-based, collaborative and popularity but we have only used content-based and popularity in our project.
 
-I’ll then show you how to analyze our content based engine dataset using Keras and TensorFlow.
+I’ll then show you how to train our dataset for Popularity based Recommender System model using Popularity filtering algorithm and Content based Recommender System model using Cosine Similarity.
+
+**Popularity filtering - Popularity recommendation model**
 
 
+How do we use this matrix for a recommendation?
+We now need to calculate the similarity of one title to another. We are going to use cosine similarity.
+We want to calculate the cosine similarity of each item with every other item in the dataset. So we just pass the title_matrix as argument.
 
 
 
