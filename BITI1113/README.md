@@ -116,10 +116,6 @@ To help keep her spirits up, Prajna decided to distract herself by applying comp
 - Best case scenario — she could use her project to help others
 - Worst case scenario — it gave her a much needed mental escape
 
-
-## D.   PROJECT STRUCTURE
-
-The following directory is our structure of our project:
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
